@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap";
+import { FaDownload } from "react-icons/fa";
 import profil from "../../public/assets/testimg.jpg";
 import aboutData from "../data/about.json";
 
@@ -15,12 +16,22 @@ function AboutMe() {
                     <h1>{about.firstname} {about.lastname}</h1>
                     <h2>{about.title}</h2>
                     <p>{about.description}</p>
-                    <Button style={{margin:' 0 auto '}} 
-                        href="" 
-                        target="_blank" 
-                        rel="noopener noreferrer">
-                        Télécharger mon CV
-                    </Button>
+                    <div className="about_btn">
+                        <a href="../assets/CV.pdf"target="_blank"rel="noopener noreferrer">
+                            <Button style={{borderRadius:'25px'}} bg="dark" variant="info">
+                                Visualiser CV
+                            </Button>
+                        </a>
+                        <Button style={{borderRadius:'25px'}} bg="dark" variant="info"
+                            href="../assets/CV.pdf" 
+                            download="CV_Kevin_Delannoy.pdf"
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            Télécharger CV
+                            <FaDownload style={{ marginLeft: '10px' }} /> 
+                        </Button>
+                    </div>
+                    
                 </div>
             </section>  
         </div>
