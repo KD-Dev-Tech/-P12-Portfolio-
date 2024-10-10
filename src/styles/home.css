@@ -1,0 +1,37 @@
+#about .about_me {
+  text-align: center;
+  padding: 15px ;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about_me p{
+  max-width: 60%;
+  margin: 0 auto;
+  
+}
+
+.profile_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-bottom: ridge skyblue;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+@media screen and (max-width: 478px) {
+  .profile_image {
+    width: 200px;
+    height: 200px;
+  }
+  #about h2 {
+    font-size: 16px;
+  }
+  .about_me p{
+    max-width: 100%;
+    font-size: 12px;
+  }
+}
