@@ -2,7 +2,8 @@ import { Button } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
 import profil from "../../public/assets/testimg.jpg";
 import aboutData from "../data/about.json";
-import '../styles/home.css'
+import Banner from "./Banner";
+
 
 
 
@@ -12,22 +13,9 @@ function AboutMe() {
     return (
         <div>
             <section id="about">
-                <div className="container_animation">
-                    <h1>Hello, I&apos;m</h1>
-                    <div className="animation">
-                        <div className="first">
-                            <div style={{display:'flex', alignItems:'self-end'}}>{about.firstname} {about.lastname}</div>
-                        </div>
-                        <div className="second">
-                            <div>{about.title}</div>
-                        </div>
-                    </div>
-                </div>
-                {/* <h1>Hello, I&apos;m {about.firstname} {about.lastname}</h1> */}
+                <Banner />
                 <img className="profile_image" src={profil} alt="Photo de profil" />
                 <div className="about_me">
-                    
-        
                     <p>{about.description}</p>
                     <p>{about.contact}</p>
                     <div className="about_btn">
@@ -44,8 +32,7 @@ function AboutMe() {
                             Télécharger CV
                             <FaDownload style={{ marginLeft: '10px' }} /> 
                         </Button>
-                    </div>
-                    
+                    </div>    
                 </div>
             </section>  
         </div>

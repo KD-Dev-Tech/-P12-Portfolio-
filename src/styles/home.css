@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  box-shadow: 1px 1px 142px 0px #20a7d8;
 }
 
 #about h1,
@@ -40,11 +40,12 @@ body {
  animation: fadeIn 2s ease-in-out;
  padding: 10px;
 
+
 }
-#about .animation {
+
+.animation {
   height:80px;
   overflow:hidden;
-  
 }
 
 .animation > div > div {
@@ -59,13 +60,14 @@ body {
 }
 
 .first div {
-  background-color:#20a7d8;
-  border-radius:25px;
-
+  background-color: #20a7d8;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px #20a7d8;
 }
 .second div {
   background-color:#CD921E;
    border-radius:25px;
+   box-shadow: 0 4px 8px #CD921E;
 }
 
 .profile_image {
@@ -73,7 +75,7 @@ body {
   height: 300px;
   border-radius: 50%;
   border-bottom: ridge skyblue;
-  margin: 0 auto;
+  margin: 50px auto;
   display: block;
   animation: fadeIn 4s ease-in-out;
   padding: 10px;
@@ -112,6 +114,16 @@ body {
 
 
 @media screen and (max-width: 768px) {
+  .animation > div > div {
+    height: 3rem;
+    font-size: 24px;
+    margin: 20px;
+
+  }
+  .container_animation {
+    flex-direction: column;
+    
+  }
   .profile_image {
     width: 200px;
     height: 200px;
@@ -127,15 +139,5 @@ body {
   .about_btn { 
     flex-direction: column;
     gap: 20px;
-  }
-  .animation > div > div {
-    height: 3rem;
-    font-size: 24px;
-    margin: 20px;
-
-  }
-  .container_animation {
-    flex-direction: column;
-    
   }
 }
