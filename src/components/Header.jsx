@@ -1,10 +1,13 @@
 import { Navbar, Nav } from 'react-bootstrap';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import logo from '../../public/assets/Logo/1.png';
 
 function Header() {
   return (
-    <Navbar  bg="dark" variant="dark" expand="lg" sticky="top" style={{ paddingLeft:'3rem', paddingRight:'2rem', display:'flex', marginBottom:'5rem'}}>
-      <Navbar.Brand href="#home" >KD</Navbar.Brand>
+    <Navbar  bg="dark" variant="dark" expand="lg" sticky="top" style={{ paddingLeft:'3rem', paddingRight:'2rem', display:'flex', marginBottom:'3rem'}}>
+      <Navbar.Brand href="#home">
+        <img style={{borderRadius:'50px',width:'40px', height:'40px'}} src={logo} alt="" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" style={{justifyContent:'center'}}>
         <Nav className="ml-auto"style={{gap:'2rem'}}>

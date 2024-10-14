@@ -14,24 +14,26 @@ function AboutMe() {
         <div>
             <section id="about">
                 <Banner />
-                <img className="profile_image" src={profil} alt="Photo de profil" />
-                <div className="about_me">
-                    <p>{about.description}</p>
-                    <p>{about.contact}</p>
-                    <div className="about_btn">
-                        <a href="../assets/CV.pdf"target="_blank"rel="noopener noreferrer">
-                            <Button style={{borderRadius:'25px'}} bg="dark" variant="info">
-                                Visualiser CV
+                <div className="about-container">
+                    <img className="about-profile_image" src={profil} alt="Photo de profil" />
+                    <div className="about-me">
+                        <p>{about.description}</p>
+                        <p>{about.contact}</p>
+                        <div className="about-btn">
+                            <a href="../assets/CV.pdf"target="_blank"rel="noopener noreferrer">
+                                <Button style={{borderRadius:'25px'}} bg="dark" variant="info">
+                                    Visualiser CV
+                                </Button>
+                            </a>
+                            <Button style={{borderRadius:'25px'}} bg="dark" variant="info"
+                                href="../assets/CV.pdf" 
+                                download="CV_Kevin_Delannoy.pdf"
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                Télécharger CV
+                                <FaDownload style={{ marginLeft: '10px' }} /> 
                             </Button>
-                        </a>
-                        <Button style={{borderRadius:'25px'}} bg="dark" variant="info"
-                            href="../assets/CV.pdf" 
-                            download="CV_Kevin_Delannoy.pdf"
-                            target="_blank" 
-                            rel="noopener noreferrer">
-                            Télécharger CV
-                            <FaDownload style={{ marginLeft: '10px' }} /> 
-                        </Button>
+                        </div>
                     </div>    
                 </div>
             </section>  

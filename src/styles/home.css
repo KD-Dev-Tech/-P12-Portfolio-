@@ -1,5 +1,10 @@
+#root{
+  height: 1000px;
+}
+
 html {
   font-family: 'Poppins', sans-serif !important;
+  
 }
 
 body {
@@ -31,7 +36,6 @@ body {
 }
 
 #about h1,
-#about h2,
 #about .animation {
  color: rgb(252, 253, 247);
  font-size: 40px;
@@ -39,8 +43,6 @@ body {
  text-align: center;
  animation: fadeIn 2s ease-in-out;
  padding: 10px;
-
-
 }
 
 .animation {
@@ -70,73 +72,85 @@ body {
    box-shadow: 0 4px 8px #CD921E;
 }
 
-.profile_image {
-  width: 300px;
-  height: 300px;
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 200px 100px; 
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px 10px lightskyblue;
+  animation: fadeIn 4s ease-in-out;
+}
+
+.about-profile_image {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border-bottom: ridge skyblue;
-  margin: 50px auto;
+  box-shadow: 0px 0px 18px skyblue;
   display: block;
   animation: fadeIn 4s ease-in-out;
   padding: 10px;
 }
 
-#about .about_me {
+#about .about-me {
   text-align: center;
   padding: 15px ;
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin: 0 auto;
-  animation: fadeIn 4s ease-in-out;
-  
 }
 
-
-.about_me p{
-  max-width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-  font-size: 20px;
+.about-me p{
+  max-width: 95%;
+  margin: 0px 70px 20px 70px;
   color: rgb(111, 158, 154);
-  animation: fadeIn 5s ease-in-out;
+  text-align: start;
 }
 
-.about_btn {
+.about-btn {
   display: flex;
   justify-content: center;
   gap: 100px;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
   animation: fadeIn 6s ease-in-out;
 }
 
 
 @media screen and (max-width: 768px) {
   .animation > div > div {
-    height: 3rem;
-    font-size: 24px;
-    margin: 20px;
-
+    height: 25px;
+    font-size: 12px;
   }
   .container_animation {
+    flex-direction: column; 
+    height: 90px;
+  }
+  #about h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .about-container {
     flex-direction: column;
-    
+    margin: 40px 20px 20px 20px;
+    gap: 10px;
   }
-  .profile_image {
-    width: 200px;
-    height: 200px;
+  .about-profile_image {
+    width: 150px;
+    height: 150px;
   }
-  #about h2 {
-    font-size: 18px;
-  }
-  .about_me p{
+  .about-me p{
     max-width: 100%;
     font-size: 14px;
     padding-bottom: 0;
+    margin: 0;
+    text-align: center;
   }
-  .about_btn { 
+  .about-btn { 
+    margin-top: 20px;
     flex-direction: column;
     gap: 20px;
   }
