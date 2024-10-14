@@ -1,6 +1,6 @@
 import { Navbar, Nav } from 'react-bootstrap';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import logo from '../../public/assets/Logo/1.png';
+import logo from '../../public/assets/logo/Logo-1.webp';
 
 function Header() {
   return (

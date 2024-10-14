@@ -2,77 +2,112 @@
     "project": [
     {
         "id": 1,
-        "name": "Project 1",
-        "description": "Description 1",
-        "image": "image1.jpg",
-        "url": "https://www.google.com"
+        "name": "Kasa",
+        "description": "Dans ce projet, nous allons développer le front-end d'une application en React, en utilisant React Router pour gérer la navigation entre les pages. Nous partirons de maquettes et de données simulées pour créer une interface utilisateur réactive, tout en utilisant Create React App et Node.js pour faciliter le développement.",
+        "image": "",
+        "url": "",
+        "technologies": ["React", "Figma", "Node.js"],
+        "github": "https://github.com/KD-Dev-Tech/P7-kasa"
     },
     {
         "id": 2,
-        "name": "Project 2",
-        "description": "Description 2",
-        "image": "image2.jpg",
-        "url": "https://www.google.com"
+        "name": "Ohmyfood",
+        "description": "Dans ce projet, nous avons développé une interface mobile-first en utilisant Sass et intégré des animations CSS pour enrichir l'expérience utilisateur. Le projet a été réalisé à partir de maquettes Figma, et versionné avec Git et GitHub pour assurer une gestion efficace.",
+        "image": "",
+        "url": "",
+        "technologies": ["Sass", "GitHub", "Figma"],
+        "github": "https://github.com/KD-Dev-Tech/P4-Oh-My-Food"
+        
     },
     {
         "id": 3,
-        "name": "Project 3",
-        "description": "Description 3",
-        "image": "image3.jpg"
+        "name": "Argent Bank",
+        "description": "Dans ce projet, nous avons développé le front-end d'une application bancaire en utilisant React et Redux pour créer un tableau de bord responsive, en intégrant des appels API REST pour la communication avec le back-end. Redux a permis de gérer l'état global, et Swagger a été utilisé pour définir les points d'accès de l'API, tandis que Node.js assurait l'exécution côté serveur.",
+        "image": "",
+        "url": "",
+        "technologies": ["React", "Redux", "MongoDB", "Node.js", "Swagger"],
+        "github": "https://github.com/KD-Dev-Tech/ArgentBank-website"
     },
     {
         "id": 4,
-        "name": "Project 4",
-        "description": "Description 4",
-        "image": "image4.jpg"
+        "name": "Porfolio Sophie B.",
+        "description": "Dans ce projet, nous avons créé une page web dynamique pour un site d'architecte d'intérieur, en utilisant JavaScript pour gérer les événements et manipuler le DOM, tout en communiquant avec une API. Nous avons également développé une page de connexion administrateur et une modale pour uploader des médias, tout en utilisant GitHub pour la gestion de version et Figma pour les maquettes.",
+        "image": "",
+        "url": "",
+        "technologies": ["Js", "API", ""],
+        "github": "https://github.com/KD-Dev-Tech/p6-Portofolio-architecte-sophie-bluel"
     },
     {
         "id": 5,
-        "name": "Project 5",
-        "description": "Description 5",
-        "image": "image5.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     },
     {
         "id": 6,
-        "name": "Project 6",
-        "description": "Description 6",
-        "image": "image6.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     },
     {
         "id": 7,
-        "name": "Project 7",
-        "description": "Description 7",
-        "image": "image7.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     },
     {
         "id": 8,
-        "name": "Project 8",
-        "description": "Description 8",
-        "image": "image8.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     },
     {
         "id": 9,
-        "name": "Project 9",
-        "description": "Description 9",
-        "image": "image9.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     },
     {
         "id": 10,
-        "name": "Project 10",
-        "description": "Description 10",
-        "image": "image10.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     },
     {
         "id": 11,
-        "name": "Project 11",
-        "description": "Description 9",
-        "image": "image9.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     },
     {
         "id": 12,
-        "name": "Project 12",
-        "description": "Description 10",
-        "image": "image10.jpg"
+        "name": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "technologies": ["", "", ""],
+        "github": ""
     }
     ]
 }

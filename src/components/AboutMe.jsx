@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
-import profil from "../../public/assets/testimg.jpg";
+import profil from "../../public/assets/profil/Profil-1.webp";
 import aboutData from "../data/about.json";
 import Banner from "./Banner";
 
