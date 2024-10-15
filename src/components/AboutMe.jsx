@@ -19,11 +19,11 @@ function AboutMe() {
                         <p>{about.contact}</p>
                         <div className="about-btn">
                             <a href="../assets/CV.pdf"target="_blank"rel="noopener noreferrer">
-                                <Button style={{borderRadius:'25px'}} bg="dark" variant="info">
+                                <Button  bg="dark" variant="info">
                                     Visualiser CV
                                 </Button>
                             </a>
-                            <Button style={{borderRadius:'25px'}} bg="dark" variant="info"
+                            <Button  bg="dark" variant="info"
                                 href="../assets/CV.pdf" 
                                 download="CV_Kevin_Delannoy.pdf"
                                 target="_blank" 

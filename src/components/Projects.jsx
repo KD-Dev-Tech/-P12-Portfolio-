@@ -9,7 +9,7 @@ function Project() {
   return (
     <div id='projects'>
       <section className='container-project'>
-        <h2 className='container_animation'>Projets Réalisés</h2>
+        <h2 className='container_animation'>Projects</h2>
         <div className='container-project_card'>
           {projects.map((project) => (
   // console.log(project),
