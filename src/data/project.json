@@ -15,7 +15,7 @@
         "description": "Gestion des connexions utilisateurs, affichage de leurs comptes, ajout de la possibilité de modifier leur pseudo. Création de nouvelles routes API pour la future gestion des transactions.",
         "image": "public/assets/images/argent-bank.webp",
         "url": "",
-        "technologies": ["React", "Redux", "MongoDB", "Node.js", "Swagger"],
+        "technologies": ["React", "Redux", "MongoDB"],
         "github": "https://github.com/KD-Dev-Tech/ArgentBank-website"
     },
     {
@@ -24,7 +24,7 @@
         "description": "Conception du portfolio de l'architecte Sophie Bluel. Présentation des travaux avec des filtres par catégorie, création d'un login et d'une page d'administration permettant d'ajouter/supprimer des projets.",
         "image": "public/assets/images/sophie-b.webp",
         "url": "",
-        "technologies": ["Js", "API", ""],
+        "technologies": ["Js", "API", "swagger"],
         "github": "https://github.com/KD-Dev-Tech/p6-Portofolio-architecte-sophie-bluel"
     }
     ]
