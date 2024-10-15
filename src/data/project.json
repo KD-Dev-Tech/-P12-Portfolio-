@@ -3,111 +3,29 @@
     {
         "id": 1,
         "name": "Kasa",
-        "description": "Dans ce projet, nous allons développer le front-end d'une application en React, en utilisant React Router pour gérer la navigation entre les pages. Nous partirons de maquettes et de données simulées pour créer une interface utilisateur réactive, tout en utilisant Create React App et Node.js pour faciliter le développement.",
-        "image": "",
+        "description": "Refonte d'un site de location d'appartements avec React. Création des composants et routes nécessaires, intégration dynamique des hôtes, descriptions et évaluations de chaque logement.",
+        "image": "public/assets/images/kasa.webp",
         "url": "",
         "technologies": ["React", "Figma", "Node.js"],
         "github": "https://github.com/KD-Dev-Tech/P7-kasa"
     },
     {
         "id": 2,
-        "name": "Ohmyfood",
-        "description": "Dans ce projet, nous avons développé une interface mobile-first en utilisant Sass et intégré des animations CSS pour enrichir l'expérience utilisateur. Le projet a été réalisé à partir de maquettes Figma, et versionné avec Git et GitHub pour assurer une gestion efficace.",
-        "image": "",
-        "url": "",
-        "technologies": ["Sass", "GitHub", "Figma"],
-        "github": "https://github.com/KD-Dev-Tech/P4-Oh-My-Food"
-        
-    },
-    {
-        "id": 3,
         "name": "Argent Bank",
-        "description": "Dans ce projet, nous avons développé le front-end d'une application bancaire en utilisant React et Redux pour créer un tableau de bord responsive, en intégrant des appels API REST pour la communication avec le back-end. Redux a permis de gérer l'état global, et Swagger a été utilisé pour définir les points d'accès de l'API, tandis que Node.js assurait l'exécution côté serveur.",
-        "image": "",
+        "description": "Gestion des connexions utilisateurs, affichage de leurs comptes, ajout de la possibilité de modifier leur pseudo. Création de nouvelles routes API pour la future gestion des transactions.",
+        "image": "public/assets/images/argent-bank.webp",
         "url": "",
         "technologies": ["React", "Redux", "MongoDB", "Node.js", "Swagger"],
         "github": "https://github.com/KD-Dev-Tech/ArgentBank-website"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Porfolio Sophie B.",
-        "description": "Dans ce projet, nous avons créé une page web dynamique pour un site d'architecte d'intérieur, en utilisant JavaScript pour gérer les événements et manipuler le DOM, tout en communiquant avec une API. Nous avons également développé une page de connexion administrateur et une modale pour uploader des médias, tout en utilisant GitHub pour la gestion de version et Figma pour les maquettes.",
-        "image": "",
+        "description": "Conception du portfolio de l'architecte Sophie Bluel. Présentation des travaux avec des filtres par catégorie, création d'un login et d'une page d'administration permettant d'ajouter/supprimer des projets.",
+        "image": "public/assets/images/sophie-b.webp",
         "url": "",
         "technologies": ["Js", "API", ""],
         "github": "https://github.com/KD-Dev-Tech/p6-Portofolio-architecte-sophie-bluel"
-    },
-    {
-        "id": 5,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
-    },
-    {
-        "id": 6,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
-    },
-    {
-        "id": 7,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
-    },
-    {
-        "id": 8,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
-    },
-    {
-        "id": 9,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
-    },
-    {
-        "id": 10,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
-    },
-    {
-        "id": 11,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
-    },
-    {
-        "id": 12,
-        "name": "",
-        "description": "",
-        "image": "",
-        "url": "",
-        "technologies": ["", "", ""],
-        "github": ""
     }
     ]
 }

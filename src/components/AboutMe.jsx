@@ -3,13 +3,11 @@ import { FaDownload } from "react-icons/fa";
 import profil from "../../public/assets/profil/Profil-1.webp";
 import aboutData from "../data/about.json";
 import Banner from "./Banner";
-
-
+console.log(aboutData);
 
 
 function AboutMe() {
     const about = aboutData.about;
-    console.log(aboutData);
     return (
         <div>
             <section id="about">
