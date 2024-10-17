@@ -1,4 +1,4 @@
-import bannerData from "../data/about.json";
+import bannerData from "../containers/data/about.json";
 
 function Banner() {
     const banner = bannerData.about;

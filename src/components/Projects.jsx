@@ -1,4 +1,4 @@
-import ProjectData from '../data/Project.json';
+import ProjectData from '../containers/data/project.json';
 import ProjectCard from '../components/ProjectCard';
 
 
