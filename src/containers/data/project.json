@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Kasa",
         "description": "Refonte d'un site de location d'appartements avec React. Création des composants et routes nécessaires, intégration dynamique des hôtes, descriptions et évaluations de chaque logement.",
-        "image": "public/assets/kasa.webp",
+        "image": "public/kasa.webp",
         "url": "",
         "technologies": ["React", "Figma", "Node.js"],
         "github": "https://github.com/KD-Dev-Tech/P7-kasa"
@@ -13,7 +13,7 @@
         "id": 2,
         "name": "Argent Bank",
         "description": "Gestion des connexions utilisateurs, affichage de leurs comptes, ajout de la possibilité de modifier leur pseudo. Création de nouvelles routes API pour la future gestion des transactions.",
-        "image": "public/assets/argent-bank.webp",
+        "image": "public/argent-bank.webp",
         "url": "",
         "technologies": ["React", "Redux", "MongoDB"],
         "github": "https://github.com/KD-Dev-Tech/ArgentBank-website"
@@ -22,7 +22,7 @@
         "id": 3,
         "name": "Porfolio Sophie B.",
         "description": "Conception du portfolio de l'architecte Sophie Bluel. Présentation des travaux avec des filtres par catégorie, création d'un login et d'une page d'administration permettant d'ajouter/supprimer des projets.",
-        "image": "public/assets/sophie-b.webp",
+        "image": "public/sophie-b.webp",
         "url": "",
         "technologies": ["Js", "API", "swagger"],
         "github": "https://github.com/KD-Dev-Tech/p6-Portofolio-architecte-sophie-bluel"
