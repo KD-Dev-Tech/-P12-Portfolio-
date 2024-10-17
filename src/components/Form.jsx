@@ -1,17 +1,33 @@
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 
 function Form () {
-  return (
-    <div id="contact" className="py-5">
-        <h2 className="container_animation">Contact</h2>
-        <section className="container-contact">
-            <h3 className="mb-0">Un projet de création web ? </h3>
+    const form = useRef();
 
-            <div className="row gy-4 mt-4">
-                <div className="col-12 col-md-5">
-                    <img src="../public/assets/images/Café.jpg" alt="" />
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_emailJS.0802', 'template_6n8k1cd', form.current, 'user_V3rnE9qm38QU5ZYxX')
+            .then((result) => {
+                console.log(result.text);
+                alert('Votre message a bien été envoyé !');
+            }, (error) => {
+                console.log(error.text);
+                alert('Une erreur est survenue, veuillez réessayer.');
+            });
+        e.target.reset();
+    }
+  return (
+    <div id="contact">
+        <section className="container-contact">
+            <h2 className="container_animation">Contact</h2>
+            <h3 className="title-form">Un projet de création web ? </h3>
+
+            <div className="d-flex align-items-center container-form">
+                <div className="col-6">
+                    <img className="form-img" src="../public/assets/images/Café.jpg" alt="" />
                 </div>
-                <div className="col-12 offset-md-1 colmd-6">
-                    <form action="" className="row gy-4" >
+                <div className=" col-5 colmd-6">
+                    <form ref={form} onSubmit={sendEmail} className=" row gy-4" >
                         <div className="col-6">
                             <label htmlFor="prenom" className="form-label">Prénom</label>
                             <input type="text" className="form-control" id="prenom" name="prenom" />
@@ -35,7 +51,6 @@ function Form () {
                 </div>
             </div>
         </section>
-       
     </div>
   );
 }

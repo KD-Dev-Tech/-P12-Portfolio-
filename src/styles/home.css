@@ -200,7 +200,8 @@ body {
 }
 
 .container-project h2,
-.container-skills h2{
+.container-skills h2,
+.container-contact h2 {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -276,6 +277,46 @@ body {
     margin-top: 100px;
   }
 
+  .container-img_skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 50px 0;
+    gap: 30px;
+  }
+
+  .img-fluid {
+    width: 70px;
+    height: 70px;
+  }
+
+  #contact {
+    background-color: #151f20;
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  .title-form {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+  }
+
+  .container-form {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+  }
+
+  .form-img {
+    width: 70%;
+    border-radius: 10%;
+  }
+
   
 
 
@@ -294,6 +335,11 @@ body {
     }
     .project-card {
       width: 60% !important;
+    }
+    .container-form img {
+      width: 100%;
+      height: auto;
+      align-items: center;
     }
   
   
@@ -346,4 +392,23 @@ body {
     width: 100% !important;
     margin: 0;
   }
+  .title-form {
+    font-size: 20px;
+  }
+  .container-form {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+  }
+  .col-6
+   {
+    width: 100% !important;
+    padding: 15px;
+  }
+  .col-5 {
+    width: 90% !important;
+    padding: 10px;
+  }
+
 }
