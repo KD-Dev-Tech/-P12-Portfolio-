@@ -16,6 +16,7 @@ function Form () {
             });
         e.target.reset();
     }
+    
   return (
     <div id="contact">
         <section className="container-contact">
