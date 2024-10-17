@@ -24,17 +24,3 @@ function Project() {
 export default Project;
 
 
-{/* <div className="project-container">
-  {project.map((project) => (
-    <div className="project-card" key={project.id}>
-      <img className="project-image" src={project.image} alt={project.title} />
-      <div className="project-info">
-        <h3>{project.title}</h3>
-        <p>{project.description}</p>
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
-          Voir le projet
-        </a>
-      </div>
-    </div>
-  ))}
-</div> */}

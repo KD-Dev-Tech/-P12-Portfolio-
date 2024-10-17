@@ -16,7 +16,7 @@ function Form () {
             });
         e.target.reset();
     }
-    
+
   return (
     <div id="contact">
         <section className="container-contact">
@@ -25,7 +25,7 @@ function Form () {
 
             <div className="d-flex align-items-center container-form">
                 <div className="col-6">
-                    <img className="form-img" src="../public/assets/images/Café.jpg" alt="" />
+                    <img className="form-img" src="../public/assets/Café.jpg" alt="Tasse de Café" />
                 </div>
                 <div className=" col-5 colmd-6">
                     <form ref={form} onSubmit={sendEmail} className=" row gy-4" >
