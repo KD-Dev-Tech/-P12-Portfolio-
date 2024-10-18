@@ -2,7 +2,7 @@ import ProjectData from '../containers/data/project.json';
 import ProjectCard from '../components/ProjectCard';
 
 
-// console.log( ProjectCard)
+// console.log( ProjectData)
 
 function Project() {
     const projects = ProjectData.project;

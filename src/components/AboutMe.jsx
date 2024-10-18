@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
-import profil from "../../public/Profil-1.webp";
+import profil from "../../public/assets/images/Profil-1.webp";
 import aboutData from "../containers/data/about.json";
 import Banner from "./Banner";
 console.log(aboutData);
@@ -18,13 +18,13 @@ function AboutMe() {
                         <p>{about.description}</p>
                         <p>{about.contact}</p>
                         <div className="about-btn">
-                            <a href="../assets/CV.pdf"target="_blank"rel="noopener noreferrer">
+                            <a href="../assets/images/CV.pdf"target="_blank"rel="noopener noreferrer">
                                 <Button  bg="dark" variant="info">
                                     Visualiser CV
                                 </Button>
                             </a>
                             <Button  bg="dark" variant="info"
-                                href="../assets/CV.pdf" 
+                                href="../assets/images/CV.pdf" 
                                 download="CV_Kevin_Delannoy.pdf"
                                 target="_blank" 
                                 rel="noopener noreferrer">

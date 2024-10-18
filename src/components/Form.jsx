@@ -1,5 +1,6 @@
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
+import café from '../../public/assets/images/Café.jpg';
 
 function Form () {
     const form = useRef();
@@ -25,7 +26,7 @@ function Form () {
 
             <div className="d-flex align-items-center container-form">
                 <div className="col-6">
-                    <img className="form-img" src="../public/Café.jpg" alt="Tasse de Café" />
+                    <img className="form-img" src={café} alt="Tasse de Café" />
                 </div>
                 <div className=" col-5 colmd-6">
                     <form ref={form} onSubmit={sendEmail} className=" row gy-4" >

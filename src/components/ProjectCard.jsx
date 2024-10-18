@@ -14,8 +14,13 @@ function ProjectCard ({project}) {
     
     return (
         <Card className="project-card"> 
-            <Card.Img variant="top" src={project.image} alt={project.name} onClick={handleImageClick} 
-                style={{ cursor: 'pointer' }} />
+            <Card.Img 
+                variant="top" 
+                src={`/${project.image}`} 
+                alt={project.name} 
+                onClick={handleImageClick} 
+                style={{ cursor: 'pointer' }} 
+                />
             <Card.Body>
                 <Card.Title style={{fontWeight:'bold'}}>{project.name}</Card.Title>
                 {showDescription && (
@@ -39,6 +44,7 @@ function ProjectCard ({project}) {
 
 ProjectCard.propTypes = {
     project: PropTypes.shape({
+        id: PropTypes.number.isRequired,
         image: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,

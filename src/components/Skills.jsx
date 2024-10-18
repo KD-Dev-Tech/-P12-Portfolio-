@@ -13,11 +13,11 @@ function Skills() {
                         <h1 className="text-white mb-3"> Front End</h1>
                         <p className="text-white"> Javascript, React, Bootstrap, Redux, Sass </p>
                         <div className='container-img_skill'>
-                            <img className='img-fluid' src="../public/JS.webp" alt="JavaScript Logo" />
-                            <img className='img-fluid' src="../public//React.webp" alt="React Logo" />
-                            <img className='img-fluid rounded' src="../public/Bootstrap.webp" alt="Bootstrap Logo" />
-                            <img className='img-fluid rounded' src="../public/Redux.webp" alt="Redux Logo" />
-                            <img className='img-fluid rounded' src="../public/Sass.webp" alt="Sass Logo" />                        
+                            <img className='img-fluid' src="assets/images/JS.webp" alt="JavaScript Logo" />
+                            <img className='img-fluid' src="assets/images/React.webp" alt="React Logo" />
+                            <img className='img-fluid rounded' src="assets/images/Bootstrap.webp" alt="Bootstrap Logo" />
+                            <img className='img-fluid rounded' src="assets/images/Redux.webp" alt="Redux Logo" />
+                            <img className='img-fluid rounded' src="assets/images/Sass.webp" alt="Sass Logo" />                        
                         </div>
                     </div>
                     <div className="col-md-4 mb-5 text-center">
@@ -25,7 +25,7 @@ function Skills() {
                         <h1 className="text-white mb-3"> Back End</h1>
                         <p className="text-white"> Node.js </p>
                         <div className='container-img_skill'>
-                            <img className='img-fluid rounded' src="../public/NodeJs.webp" alt="Node.js Logo" />
+                            <img className='img-fluid rounded' src="assets/images/NodeJs.webp" alt="Node.js Logo" />
                         </div>
                     </div>
                     <div className="col-md-4 mb-5 text-center">
@@ -33,8 +33,8 @@ function Skills() {
                         <h1 className="text-white mb-3"> Databases</h1>
                         <p className="text-white"> mangodb, Swagger</p>
                         <div className='container-img_skill'>
-                            <img className='img-fluid ' src="../public/MongoDB.webp" alt="MongoDB Logo" />
-                            <img className='img-fluid ' src="../public/Swagger.webp" alt="Swagger Logo" />
+                            <img className='img-fluid ' src="assets/images//MongoDB.webp" alt="MongoDB Logo" />
+                            <img className='img-fluid ' src="assets/images/Swagger.webp" alt="Swagger Logo" />
                         </div>
                     </div>
                     <div className="col-md-4 mb5 text-center">
@@ -42,9 +42,9 @@ function Skills() {
                         <h1 className="text-white mb-3"> Other</h1>
                         <p className="text-white"> Git, ChatGpt, Figma </p>
                         <div className='container-img_skill'>
-                            <img className='img-fluid rounded' src="../public/Git.webp" alt="" />
-                            <img className='img-fluid rounded' src="../public/Chatgpt.webp" alt="" />
-                            <img className='img-fluid rounded' src="../public/Figma.webp" alt="" />
+                            <img className='img-fluid rounded' src="assets/images/Git.webp" alt="Git logo" />
+                            <img className='img-fluid rounded' src="assets/images/Chatgpt.webp" alt="Chatgpt logo" />
+                            <img className='img-fluid rounded' src="assets/images/Figma.webp" alt=" logo" />
                         </div>
                     </div>
                 </div>
