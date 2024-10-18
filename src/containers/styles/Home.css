@@ -136,19 +136,14 @@ body {
   
 }
 
-.about-container::before {
-  content: '';
+.about-container
+.about-background{
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  /* background-image: url('../public/assets/images/image-fond.webp');  */
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  height: 100%;  
   opacity: 0.1; 
   z-index: 1; 
+  object-fit: cover;
 }
 
 .about-container > * {
@@ -245,12 +240,13 @@ body {
   gap: 10px;
   margin-top: 10px;
  }
+
  .project-card__description {
   margin-top: 10px;
   font-size: 16px;
   color: #555;
   background-color: rgb(235, 235, 235);
- width: 100%;
+  width: 100%;
 }
 
  .project-card__technologies {
@@ -273,6 +269,7 @@ body {
   #skills {
     background-color: #151f20;
   }
+
   .container-fluid {
     margin-top: 100px;
   }
@@ -347,12 +344,12 @@ body {
   
 @media screen and (max-width: 768px) {
   .animation > div > div {
-    height: 25px;
-    font-size: 12px;
+    height: 28px;
+    font-size: 15px;
   }
   .container_animation {
     flex-direction: column; 
-    height: 100px;
+    height: 110px;
   }
   #about h1,
   .container-project h2 {
@@ -370,7 +367,7 @@ body {
   }
   .about-me p{
     max-width: 100%;
-    font-size: 12px;
+    font-size: 16px;
     padding-bottom: 0;
     margin: 0;
     text-align: center;
