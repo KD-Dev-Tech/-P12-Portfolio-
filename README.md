@@ -1,8 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio KD v1
 
-Currently, two official plugins are available:
+Ce projet est une application React utilisant **Vite** comme outil de construction rapide et efficace. Vite offre un développement plus rapide et une expérience utilisateur optimisée.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
+
+- [Node.js](https://nodejs.org/) (version 14 ou plus)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clonez ce dépôt sur votre machine locale :
+
+   ```bash
+   git clone https://github.com/KD-Dev-Tech/-P12-Portfolio-.git
+
+2. Accédez au répertoire du projet :
+  ``cd portfolio`` 
+
+3. Installez les dépendances :
+   ``npm install``
+
+4. Démarrez le serveur de développement :
+   ``npm run dev`` 
+
+## Utilisation :
+
+Une fois le serveur de développement démarré, vous pouvez accéder à l'application en ouvrant votre navigateur et en naviguant vers http://localhost:3000 (ou l'URL indiquée par Vite)
+

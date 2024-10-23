@@ -4,13 +4,18 @@ import café from '../../public/assets/images/Café.jpg';
 
 function Form () {
     const form = useRef();
-
+/**
+ * 
+ * @param { envoyer un email } e 
+ * plugin emailjs pour envoyer un email
+ * 
+ */
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_emailJS.0802', 'template_6n8k1cd', form.current, 'user_V3rnE9qm38QU5ZYxX')
+        emailjs.sendForm('service_emailJS.0802', 'template_nu4a8xc', form.current, 'V3rnE9qm38QU5ZYxX')
             .then((result) => {
                 console.log(result.text);
-                alert('Votre message a bien été envoyé !');
+                alert('Merci pour votre message, il sera traité au plus vite.');
             }, (error) => {
                 console.log(error.text);
                 alert('Une erreur est survenue, veuillez réessayer.');
@@ -31,12 +36,12 @@ function Form () {
                 <div className=" col-5 colmd-6">
                     <form ref={form} onSubmit={sendEmail} className=" row gy-4" >
                         <div className="col-6">
-                            <label htmlFor="prenom" className="form-label">Prénom</label>
-                            <input type="text" className="form-control" id="prenom" name="prenom" />
+                            <label htmlFor="firstname" className="form-label">Prénom</label>
+                            <input type="text" className="form-control" id="firstname" name="firstname" />
                         </div>
                         <div className="col-6">
-                            <label htmlFor="nom" className="form-label">Nom</label>
-                            <input type="text" className="form-control" id="nom" name="nom" />
+                            <label htmlFor="lastname" className="form-label">Nom</label>
+                            <input type="text" className="form-control" id="lastname" name="lastname" />
                         </div>
                         <div className="col-12">
                             <label htmlFor="email" className="form-label">Email</label>
