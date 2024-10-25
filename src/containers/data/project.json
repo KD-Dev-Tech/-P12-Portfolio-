@@ -16,7 +16,7 @@
         "image": "assets/images/argent-bank.webp",
         "url": "",
         "technologies": ["React", "Redux", "MongoDB"],
-        "github": "https://github.com/KD-Dev-Tech/Argent-Bank-website"
+        "github": "https://github.com/KD-Dev-Tech/ArgentBank-website.git"
     },
     {
         "id": 3,

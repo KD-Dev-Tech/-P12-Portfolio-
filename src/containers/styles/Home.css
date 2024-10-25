@@ -62,8 +62,6 @@ body {
 }
 
 @keyframes scroll {
-  
-
   0% {
     transform: translateX(0);
   }
@@ -73,8 +71,8 @@ body {
   100% {
     transform: translateX(0%);
   }
-  
 }
+
 
 .container_animation {
   display: flex;
@@ -185,6 +183,15 @@ body {
   gap: 100px;
   margin: 0 auto;
   animation: fadeIn 8s ease-in-out;
+}
+
+.btn, .btn-info {
+  background-color: #003C70 !important;
+  color: white !important;
+  box-shadow: skyblue 5px 5px 10px 0px;
+  
+ 
+  
 }
 
 .container-project {
@@ -307,6 +314,11 @@ body {
     width: 100%;
     height: auto;
     gap: 30px;
+  }
+
+  .form-label {
+    color: white;
+    font-size: 20px;
   }
 
   .form-img {
