@@ -3,6 +3,28 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import logo from '../../public/assets/images/Logo-1.webp';
 
+/**
+ * Header component displays the navigation bar with links to different sections of the portfolio.
+ * 
+ * Le composant Header affiche la barre de navigation avec des liens vers différentes sections du portfolio.
+ *
+ * @component
+ * 
+ * Toggles the expanded state of the navbar.
+ * 
+ * Basculer l'état étendu de la barre de navigation.
+ * 
+ * Closes the navbar when a link is clicked.
+ * 
+ * Ferme la barre de navigation lorsqu'un lien est cliqué.
+ * 
+ * @example
+ * return (
+ *   <Header />
+ * )
+ */
+
+
 function Header() {
   const [expanded, setExpanded] = useState(false);
 

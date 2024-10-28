@@ -2,14 +2,33 @@ import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 import café from '../../public/assets/images/Café.jpg';
 
+/**
+ * Form component handles the contact form and sends an email using EmailJS.
+ * Le composant Form gère le formulaire de contact et envoie un e-mail en utilisant EmailJS.
+ *
+ * @component
+ * @example
+ * return (
+ *   <Form />
+ * )
+ */
+
 function Form () {
     const form = useRef();
-/**
- * 
- * @param { envoyer un email } e 
- * plugin emailjs pour envoyer un email
- * 
- */
+
+  /**
+   * Sends an email using EmailJS when the form is submitted.
+   * 
+   * Envoie un e-mail en utilisant EmailJS lorsque le formulaire est soumis.
+   * 
+   * @param {Event} e - The form submission event. / L'événement de soumission du formulaire.
+   * @returns {
+   *  alert('Merci pour votre message, il sera traité au plus vite.');
+   * alert('Une erreur est survenue, veuillez réessayer.');
+   * }
+   * 
+   */
+
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_emailJS.0802', 'template_nu4a8xc', form.current, 'V3rnE9qm38QU5ZYxX')

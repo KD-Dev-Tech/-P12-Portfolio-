@@ -1,5 +1,17 @@
 import bannerData from "../containers/data/about.json";
 
+/**
+ * Banner component displays the user's name and title.
+ * 
+ * Le composant Banner affiche le nom et le titre de l'utilisateur.
+ * 
+ * @component
+ * @example
+ * return ( 
+ *  <Banner />
+ * )
+ */
+
 function Banner() {
     const banner = bannerData.about;
     return (

@@ -1,6 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCrop, faCogs, faDatabase,faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 
+/**
+ * Skills component displays the skills of the user.
+ * 
+ * le composant Skills affiche les compétences de l'utilisateur.
+ * 
+ * @component 
+ * @example
+ * 
+ * return (
+ *  <Skills />
+ * )
+ * 
+ */
+
 function Skills() {
   return (
     <div id="skills">

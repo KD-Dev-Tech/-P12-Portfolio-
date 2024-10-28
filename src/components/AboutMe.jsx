@@ -6,6 +6,20 @@ import aboutData from "../containers/data/about.json";
 import Banner from "./Banner";
 
 
+/**
+ * AboutMe component displays information about the user, including a profile picture,
+ * background image, description, contact information, and links to view and download the CV.
+ * 
+ * Le composant AboutMe affiche des informations sur l'utilisateur, y compris une photo de profil,
+ * une image de fond, une description, des informations de contact et des liens pour afficher et télécharger le CV.
+ * 
+ *
+ * @component
+ * @example
+ * return ( 
+ *  <AboutMe />
+ * )
+ */
 
 function AboutMe() {
     const about = aboutData.about;

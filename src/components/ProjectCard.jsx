@@ -4,14 +4,36 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 
+/**
+ * ProjectCard component displays information about a project.
+ * Le composant ProjectCard affiche des informations sur un projet.
+ *
+ * @component
+ * @example
+ * const project = {
+ *   id: 1,
+ *   name: 'Kasa',
+ *   description: 'Refonte d\'un site de location d\'appartements avec React.',
+ *   image: 'assets/images/kasa.webp',
+ *   technologies: ['React', 'Figma', 'Node.js'],
+ *   github: 'https://github.com/KD-Dev-Tech/P7-kasa'
+ * }
+ * return (
+ *   <ProjectCard project={project} />
+ * )
+ */
 
 function ProjectCard ({project}) {
     const [showDescription, setShowDescription] = useState(false);
 
+    /**
+     * Toggles the visibility of the project description.
+     * Basculer la visibilité de la description du projet.
+     */
+
     const handleImageClick = () => {
         setShowDescription(!showDescription);
     };
-    
     return (
         <Card className="project-card"> 
             <Card.Img 
