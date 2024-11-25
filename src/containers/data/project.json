@@ -5,8 +5,8 @@
         "name": "Kasa",
         "description": "Refonte d'un site de location d'appartements avec React. Création des composants et routes nécessaires, intégration dynamique des hôtes, descriptions et évaluations de chaque logement.",
         "image": "assets/images/Kasa.webp",
-        "url": "",
         "technologies": ["React", "Figma", "Node.js"],
+        "url": "",
         "github": "https://github.com/KD-Dev-Tech/P7-kasa"
     },
     {
@@ -14,8 +14,8 @@
         "name": "Argent Bank",
         "description": "Gestion des connexions utilisateurs, affichage de leurs comptes, ajout de la possibilité de modifier leur pseudo. Création de nouvelles routes API pour la future gestion des transactions.",
         "image": "assets/images/argent-bank.webp",
-        "url": "",
         "technologies": ["React", "Redux", "MongoDB"],
+        "url": "",
         "github": "https://github.com/KD-Dev-Tech/ArgentBank-website.git"
     },
     {
@@ -23,9 +23,54 @@
         "name": "Porfolio Sophie B.",
         "description": "Conception du portfolio de l'architecte Sophie Bluel. Présentation des travaux avec des filtres par catégorie, création d'un login et d'une page d'administration permettant d'ajouter/supprimer des projets.",
         "image": "assets/sophie-b.webp",
-        "url": "",
         "technologies": ["Js", "API", "swagger"],
+        "url": "",
         "github": "https://github.com/KD-Dev-Tech/p6-Portofolio-architecte-sophie-bluel"
+    },
+    {
+        "id": 4,
+        "name": "Booki",
+        "description": "Ce projet consiste en la création d'une interface web responsive, basée sur une maquette et implémentée en utilisant uniquement HTML et CSS. Le projet met également en place un environnement de développement front-end.",
+        "image": "assets/images/Booki.webp",
+        "technologies": ["Html", "Css"],
+        "url": "https://kd-dev-tech.github.io/p3-Booki/",
+        "github": "https://github.com/KD-Dev-Tech/p3-Booki"
+    },
+    {
+        "id": 5,
+        "name": "Oh my food",
+        "description": "Ce projet consiste à développer l'interface mobile-first du site web d'une start-up. Utilisation de Sass, implémentation des animations CSS et des effets graphiques avancés. Intégration de la maquette responsive en HTML et CSS.",
+        "image": "assets/images/Ohmyfood.webp",
+        "technologies": ["Html", "Css", "Sass"],
+        "url": "https://kd-dev-tech.github.io/P4-Oh-My-Food/",
+        "github": "https://github.com/KD-Dev-Tech/P4-Oh-My-Food"
+    },
+    {
+        "id": 6,
+        "name": "Print-it",
+        "description": "Ce projet consiste à mettre à jour un code HTML existant en y intégrant un carrousel programmé en JavaScript. Ce carrousel inclut un défilement infini et permet de naviguer entre les slides via des flèches et des bullet points interactifs.",
+        "image": "assets/images/Print-it.webp",
+        "technologies": ["Js"],
+        "url": "https://kd-dev-tech.github.io/P5-Print-it/",
+        "github": "https://github.com/KD-Dev-Tech/P5-Print-it"
+    },
+    {
+        "id": 7,
+        "name": "Nina Carducci",
+        "description": "L'objectif est d'optimiser le référencement (SEO), la performance, et l'accessibilité d'un site web. Analyse des problèmes existants, proposition des solutions et appliquation des modifications pour améliorer les résultats de recherche et l'expérience utilisateur.",
+        "image": "assets/images/Nina.webp",
+        "technologies": ["Lighthouse", "Wave", "Google Search Console"],
+        "url": "https://kd-dev-tech.github.io/p8-NinaCarducci/",
+        "github": "https://github.com/KD-Dev-Tech/p8-NinaCarducci"
+    },
+    {
+        "id": 8,
+        "name": "724 Event",
+        "description": "Débugger un site web avec Chrome DevTools. Rédiger un cahier de recette pour tester un site",
+        "image": "assets/images/724-events.webp",
+        "technologies": ["Chrome DevTools"],
+        "url": "",
+        "github": "https://github.com/KD-Dev-Tech/P9-Debuggez-une-application-React.JS-main"
     }
     ]
 }

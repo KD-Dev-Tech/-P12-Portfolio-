@@ -46,7 +46,7 @@ function Form () {
     <div id="contact">
         <section className="container-contact">
             <h2 className="container_animation">Contact</h2>
-            <h3 className="title-form">Un projet de création web ? </h3>
+            <h3 className="title-form">Mon profil vous intérresse ? </h3>
 
             <div className="d-flex align-items-center container-form">
                 <div className="col-6">

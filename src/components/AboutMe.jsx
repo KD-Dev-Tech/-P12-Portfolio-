@@ -38,7 +38,7 @@ function AboutMe() {
                         <p>{about.description}</p>
                         <p>{about.contact}</p>
                         <div className="about-btn">
-                            <a href="../assets/images/CV.pdf" 
+                            <a href="../assets/images/CV2.pdf" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 <Button  bg="dark" variant="info">
@@ -46,7 +46,7 @@ function AboutMe() {
                                 </Button>
                             </a>
                             <Button  bg="dark" variant="info"
-                                href="../assets/images/CV.pdf" 
+                                href="../assets/images/CV2.pdf" 
                                 download="CV_Kevin_Delannoy.pdf"
                                 target="_blank" 
                                 rel="noopener noreferrer">

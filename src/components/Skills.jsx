@@ -45,7 +45,7 @@ function Skills() {
                     <div className="col-md-4 mb-5 text-center">
                         <FontAwesomeIcon icon={faDatabase} className="fa-5x text-danger mb-4" />    
                         <h1 className="text-white mb-3"> Databases</h1>
-                        <p className="text-white"> mangodb, Swagger</p>
+                        <p className="text-white"> mongoDB, Swagger</p>
                         <div className='container-img_skill'>
                             <img className='img-fluid ' src="assets/images//MongoDB.webp" alt="MongoDB Logo" />
                             <img className='img-fluid ' src="assets/images/Swagger.webp" alt="Swagger Logo" />

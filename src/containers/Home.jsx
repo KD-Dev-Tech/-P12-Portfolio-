@@ -12,7 +12,6 @@ function Home() {
       <Project />
       <Skills />
       <Form />
-      
     </>
           
   );
